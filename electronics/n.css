@@ -1,0 +1,141 @@
+.one{
+    
+    color: white;
+    background-color: grey;
+    padding: 30px;
+    margin: 5%;
+    margin-top: 1%;
+    margin-left: 35%;
+    border: 3px solid black;
+    border-radius: 20px;
+    display :inline-flex;
+    transition: 2s;
+    position: relative;
+}
+@keyframes glow{
+
+    0%{
+        box-shadow: 3px 3px 100px red;
+        border: 3px solid red;
+    }
+    25%{
+        box-shadow: 3px 3px 100px blue;
+        border: 3px solid blue;
+    }
+    50%{
+        box-shadow: 3px 3px 100px green;
+        border: 3px solid green;
+    }
+    75%{
+        box-shadow: 3px 3px 90px yellow;
+        border: 3px solid yellow;
+    }
+    100%{
+        box-shadow: 3px 3px 100px red;
+        border: 3px solid red;
+    }
+}
+.one:hover{
+    animation: glow 5s infinite;
+    transition: 2s;
+    background-color: transparent;
+    cursor: pointer;
+}
+.in{
+ color:lightsalmon;
+ font-size: 30px;
+}
+.two{
+     color: white;
+    background-color: grey;
+    padding: 30px;
+    margin: 5%;
+    margin-top: 1%;
+    margin-left: 35%;
+    border: 3px solid black;
+    border-radius: 20px;
+    display :inline-block;
+    transition: 2s;
+    position: relative;
+}
+.two:hover{
+    animation: glow 5s infinite;
+    transition: 2s;
+    background-color: transparent;
+    cursor: pointer;
+}
+.da{
+    color: bisque;
+    font-size: 30px;
+    margin-left: 30%;
+    margin-top: 0%;
+}
+/* container */
+.title {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  color: lightskyblue;
+}
+
+/* wave container */
+.wave {
+  width: 120px;
+  height: 30px;
+  overflow: hidden;
+}
+
+/* svg style */
+.wave svg {
+  width: 100%;
+  height: 100%;
+}
+
+.wave path {
+  fill: none;
+  stroke: cyan;
+  stroke-width: 2;
+  stroke-dasharray: 200;
+  stroke-dashoffset: 200;
+  transition: stroke-dashoffset 0.6s ease;
+}
+
+/* 🔥 hover effect */
+.title:hover .wave path {
+  stroke-dashoffset: 0;
+}
+.ac{
+ color:lightsalmon;
+ font-size: 30px;
+}
+.ac1{
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    margin-left: 10%;
+}
+
+.new{
+    color: antiquewhite;
+    font-size: 20px;
+}
+.dc{
+    color: red;
+}
+.DC{
+    color: aqua;
+    font-size: 30px;
+}
+
+canvas {
+  border: 2px solid cyan;
+  box-shadow: 0 0 20px cyan;
+}
+.alt{
+    color: blue;
+}
+.dir{
+    color: red;
+}
